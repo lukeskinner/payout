@@ -15,7 +15,7 @@ module.exports = offers = async (nodeId) => {
 
   const offersInfo = (
     await axios.get(
-      `https://v5api.othub.info/api/nodes/DataHolder/${nodeId}/jobs`
+      `https://v5api.othub.io/api/nodes/DataHolder/${nodeId}/jobs`
     )
   ).data;
 
